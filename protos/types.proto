@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package helloworld;
+
+import "google/protobuf/timestamp.proto";
+
+message Message {
+  string say = 1;
+  google.protobuf.Timestamp timestamp = 2;
+}
+
+message Response {
+  string say = 1;
+}

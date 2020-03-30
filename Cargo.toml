@@ -1,0 +1,12 @@
+[package]
+name = "tonic-err"
+version = "0.1.0"
+authors = ["Cameron Dart <cdart@anduril.com>"]
+edition = "2018"
+
+[dependencies]
+prost = "0.6.1"
+tonic = "0.1.1"
+
+[build-dependencies]
+tonic-build = "0.1.1"
